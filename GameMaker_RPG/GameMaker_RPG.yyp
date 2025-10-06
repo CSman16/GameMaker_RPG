@@ -36,8 +36,10 @@
   "name":"GameMaker_RPG",
   "resources":[
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oWall1","path":"objects/oWall1/oWall1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},},
+    {"id":{"name":"WallSprite1","path":"sprites/WallSprite1/WallSprite1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

@@ -13,6 +13,18 @@ down_key = keyboard_check(vk_down);
 xspd = (right_key - left_key) * move_speed; // * move_speed is for changing move speed manually in create
 yspd = (down_key - up_key) * move_speed;  // HUGE NOTE: Y VALUE GOES UP AS YOU GO DOWN NOT UP
 
+// collisions
+if place_meeting(x + xspd, y, oWall1) == true
+	{
+	xspd = 0;
+	}
+if place_meeting(x, y + yspd, oWall1) == true
+	{
+	yspd = 0;
+	}
+
+
+
 // sets the x and y to the movements so you actually move
 x += xspd;
 y += yspd; 
