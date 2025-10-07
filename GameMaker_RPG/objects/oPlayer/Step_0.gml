@@ -29,5 +29,8 @@ if place_meeting(x, y + yspd, oWall1) == true
 x += xspd;
 y += yspd; 
 
-
-
+if xspd > 0 {face = RIGHT};
+if xspd < 0 {face = LEFT};
+if yspd > 0 {face = DOWN};
+if yspd < 0 {face = UP};
+sprite_index = sprite[face];
