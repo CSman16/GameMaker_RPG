@@ -23,11 +23,10 @@ if place_meeting(x, y + yspd, oWall1) == true
 	yspd = 0;
 	}
 
-
-
 // sets the x and y to the movements so you actually move
 x += xspd;
 y += yspd; 
+
 if yspd == 0
 	{
 	if xspd > 0 {face = RIGHT};
@@ -43,3 +42,16 @@ if xspd == 0
 if yspd > 0 && face == UP {face = DOWN};
 if yspd < 0 && face == DOWN {face = UP};
 sprite_index = sprite[face];
+
+
+
+
+
+
+
+
+if xspd == 0 && yspd == 0
+	{
+	image_index = 0;
+	}
+
