@@ -37,7 +37,6 @@
   "resources":[
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oWall1","path":"objects/oWall1/oWall1.yy",},},
-    {"id":{"name":"oWall2","path":"objects/oWall2/oWall2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"ScriptMacro","path":"scripts/ScriptMacro/ScriptMacro.yy",},},
     {"id":{"name":"FloorTile1","path":"sprites/FloorTile1/FloorTile1.yy",},},

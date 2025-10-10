@@ -44,12 +44,6 @@ if yspd < 0 && face == DOWN {face = UP};
 sprite_index = sprite[face];
 
 
-
-
-
-
-
-
 if xspd == 0 && yspd == 0
 	{
 	image_index = 0;
