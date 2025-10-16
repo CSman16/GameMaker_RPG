@@ -35,10 +35,12 @@
   },
   "name":"GameMaker_RPG",
   "resources":[
+    {"id":{"name":"oBed1","path":"objects/oBed1/oBed1.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oWall1","path":"objects/oWall1/oWall1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"ScriptMacro","path":"scripts/ScriptMacro/ScriptMacro.yy",},},
+    {"id":{"name":"Bed1","path":"sprites/Bed1/Bed1.yy",},},
     {"id":{"name":"FloorTile1","path":"sprites/FloorTile1/FloorTile1.yy",},},
     {"id":{"name":"PlayerSprite_Down","path":"sprites/PlayerSprite_Down/PlayerSprite_Down.yy",},},
     {"id":{"name":"PlayerSprite_left","path":"sprites/PlayerSprite_left/PlayerSprite_left.yy",},},
